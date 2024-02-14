@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "a1b06b8f-4c17-4251-b662-26350e210633",
+		"name": "DICE_TEST_POSTMAN_COLLECTION",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "32947572"
+	},
+	"item": [
+		{
+			"name": "Hourly Weather ForCast API",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Client-ID",
+						"value": "1test",
+						"type": "text"
+					},
+					{
+						"key": "Client-Secret",
+						"value": "2test",
+						"type": "text"
+					}
+				],
+				"url": "http://localhost:8080/dice-test/Mumbai/getWeatherForCastHourly"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/dice-test/Mumbai/getWeatherSummary",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Client-ID",
+						"value": "1test",
+						"type": "text"
+					},
+					{
+						"key": "Client-Secret",
+						"value": "2test",
+						"type": "text"
+					}
+				],
+				"url": "http://localhost:8080/dice-test/Mumbai/getWeatherForCastSummary"
+			},
+			"response": []
+		}
+	]
+}
